@@ -41,7 +41,8 @@ module.exports = {
         [config.network]: {
             provider: () =>
                 new HDWalletProvider(config.privateKey, `https://${config.network}.infura.io/v3/${config.infuraKey}`),
-            network_id: config.networkId
+            network_id: config.networkId,
+            skipDryRun: true
         }
         // Useful for testing. The `development` name is special - truffle uses it by default
         // if it's defined here and no other network is specified at the command line.
