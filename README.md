@@ -4,6 +4,13 @@ ERC20 Token that allows to borrow unlimited FLS without an external party.
 
 ## Addresses
 
+### Binance smart chain
+
+-   _Mainnet_ - 0x54ED0B6D2b2f49eba9e3BeCd5c76F6116caEC479
+-   _Testnet_ - 0x2d22fB4FE4665A0eeD019689d3B7a9023ED8e7FA
+
+### Ethereum
+
 -   _Kovan_ - 0x9eE4b63424369f9Cd02Cb17CC402235b520c4217
 -   _Ropsten_ - 0x52da31Bd5c0fD2E270232b043eDF41DaB1C75f0C
 

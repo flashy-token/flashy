@@ -39,8 +39,7 @@ module.exports = {
 
     networks: {
         [config.network]: {
-            provider: () =>
-                new HDWalletProvider(config.privateKey, `https://${config.network}.infura.io/v3/${config.infuraKey}`),
+            provider: () => new HDWalletProvider(config.privateKey, config.provider.https),
             network_id: config.networkId,
             skipDryRun: true
         }
